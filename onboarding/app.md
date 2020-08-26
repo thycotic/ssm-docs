@@ -31,3 +31,20 @@ url you use to navigate to your Secret Server from the browser it could be:
 If you are using your active directory credentials then you must enter the fully-qualified domain name
 (FQDN), if you are using local Secret Server account then this could be left empty.
 Enter your two-factor information, if you have that enabled. Once logged in, you will see the Secrets list.
+
+## Supported MFA
+
+The application supports the same MFA mechanisms as used by Secret Server:  
+
+* DUO – Push  
+* DUO – Phone call
+* Pin Code
+* TOTP authenticators
+* FIDO (NFC)
+
+If available via device, the application supports biometric authentication instead of password or other types of MFA:
+
+* Fingerprint (Android and iOS)
+* Facial recognition (iOS only)
+
+The application will auto-reconnect to Secret Server if the connection is temporarily dropped due to network issues and support for Secret Server login refresh token.
