@@ -14,7 +14,7 @@ Following a successful installation, run through these initial setup steps:
 1. Click __Login__.
 
    ![login](images/init-1.png "Initial Login screen")
-1. Enter you Secret Server instance URL, for example `mycompany.com/SecretServer/`.
+1. Enter you Secret Server instance URL, for example `websitename.domain.com/secretserver`.
 
    ![URL](images/init-2.png "Enter URL prompt for initial setup")
 1. Click __Continue__.
