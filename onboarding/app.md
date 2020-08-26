@@ -1,7 +1,7 @@
 [title]: # (Configuration)
 [tags]: # (mobile)
-[priority]: # (4)
-# Configuration
+[priority]: # (2)
+# Secret Server Configuration
 
 Download the mobile app from the app store for your mobile device (available for iOS and
 Android) by searching for Thycotic Secret Server Mobile.
@@ -24,7 +24,7 @@ web services folder in IIS. To do this,
 1. Double-click __Authentication__, then right-click __Anonymous Authentication__ and select __Enable__.
 
 Now launch the app and fill in the fields with the correct information. The url field should be the
-url you use to navigate to your Secret Server from the brwoser it could be:
+url you use to navigate to your Secret Server from the browser it could be:
 
 `https://websitename.domain.com` or `https://websitename.domain.com/secretserver`
 

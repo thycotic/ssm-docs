@@ -1,31 +1,12 @@
-[title]: # (Setup)
+[title]: # (Mobile Setup)
 [tags]: # (mobile)
-[priority]: # (2)
-# Setup
-
-## Prerequisites in Secret Server
-
-Provide an Onboarding process for users starting the mobile application for the first time 
-
-Onboarding process would follow a path like: 
-NOTE: This process is still being defined 
-
-The Admin would open Secret Server and navigate to a screen for onboarding users into mobile 
-
-If user selection is available, they would select the specific users or all users 
-
-Admin would then click a button to create onboarding link (this might be a hyperlink, QR code, etc.) 
-
-A code or link would be generated in Secret Server.  
-
-Admin has some mechanism to copy the link or send it out to users 
-
-## Initial Mobile Setup
+[priority]: # (3)
+# Mobile Setup
 
 Once the user receives the invitation to install and use the Secret Server Mobile application, they use the provided app store links to download and install the product. The Secret Server Mobile application is available at
 
-* [Google Play]()
-* [Apple App Store]()
+* [Google Play](TODO)
+* [Apple App Store](TODO)
 
 Following a successful installation, run through these initial setup steps:
 
