@@ -13,9 +13,11 @@ Once launched, the mobile application needs to be configured to access your Secr
 1. Navigate to __Admin | Configuration | Application Settings__.
 1. Verify that under __View Webservices__ the __Enable Webservices__ option is reflecting __Yes__.
 
-While you’re here, you can also define the Maximum Time for Offline Access on
-Mobile Devices and Session Timeout for Webservices. For maximum security, do not choose Unlimited
-for session timeout and restrict offline access to just a few days.
+While you’re here, you can also define the Maximum Time for Offline Access on Mobile Devices and Session Timeout for Webservices. For maximum security, do not choose Unlimited for session timeout and restrict offline access to just a few days.
+
+The mobile onboarding process is handled and reviewable via the Event Pipelines: Policies in Secret Server:
+
+![event pipelines](images/pipeline.png "Secret Server Mobile Application event pipelines policies for onboarding")
 
 If you are using Windows integrated authentication then you must enable __Anonymous__ access on the
 web services folder in IIS. To do this, 
