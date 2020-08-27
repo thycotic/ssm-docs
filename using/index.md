@@ -33,6 +33,16 @@ The Home page lets users browse existing and add new secrets.
 
 ![home](images/main.png "Home page")
 
+Use the __+__ icon to add new secrets or folders to Secret Server.
+
+![add](images/add.png "Add a Secret or Folder")
+
+#### Ellipsis Options
+
+Secrets and folders have ellipsis menu options that allow users to view, edit, and delete items based on permission levels.
+
+![ellipsis](images/ellipsis.png "Ellipsis Menu Options")
+
 ### Hamburger Menu
 
 ![hamburger](images/hamburger.png "Hamburger menu options")
