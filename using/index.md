@@ -12,13 +12,10 @@ The mobile app can be used to authenticate to a Secret Server instance (on-prem 
 * View, add, edit, delete
 * Search based on:
   * Name
-  * Template
 * Favorite
-  * List from SS
-  * Can add Secrets to list from Star icon in mobile app
+  * Users have access to their Favorites list as a separate tab and can favorite or un-favorite secrets, which is then synchronized between the mobile device and Secret Server and vice versa.
 * Recent
-  * List of most recently accessed Secrets
-  * Limit list to last 15
+  * Shows the user's f15 most recently accessed secrets.
 
 Users access and use their secrets via mobile device, using the built-in password management features. When Users are logged in with their own account, users can navigate the Secret Server folder structure to access any of their Secrets.
 The applications allows users to automatically fill credentials from Secrets into other mobile apps or Web browser sites on the mobile device. For this to work correctly, the application needs to be registered with the device's autofill service.
@@ -39,7 +36,7 @@ Use the __+__ icon to add new secrets or folders to Secret Server.
 
 #### Ellipsis Options
 
-Secrets and folders have ellipsis menu options that allow users to view, edit, and delete items based on permission levels.
+Secrets and folders have ellipsis menu options that allow users to view, edit, and delete items based on permission levels. The options available are dynamic based on the Secret.
 
 ![ellipsis](images/ellipsis.png "Ellipsis Menu Options")
 
@@ -88,3 +85,38 @@ The Recent page provides the list of recently accessed/used secrets.
 The Shared page provides the list of shared secrets.
 
 ![shared](images/shared.png "Shared page")
+
+## Launching a Web Password Secret
+
+Users can launch Web Secrets directly from the secret's details page.
+
+![launch](images/launch.png "Launch web secret")
+
+1. Click the launcher icon in the top right of the details page.
+
+## Switching the Login
+
+The mobile application supports to switch the user/login. 
+
+1. Select the Hamburger menu on the top left.
+1. Click the currently logged in user.
+1. On the __Change User__ page, select __Switch Login__.
+
+   ![switch](images/switch.png "Switch Login option")
+1. Confirm your action, click __Yes__.
+1. On the __What is your URL?__ page either enter a different instance for the new login or keep the known URL and click __Continue__ to access the __What is your username?__ page.
+1. Enter your Username, click __Continue__.
+1. Enter your Password, click __Continue__.
+
+## Autofill
+
+When the Autofill service is enable on the device, the Secret Server Mobile application works with the devices built-in autofill features to fill username and password fields for web pages or other mobile applications.
+
+When you select the mobile application or web page and click on the username field you should see a prompt to use the autofill service from Secret Server Mobile. Clicking this option will open the app and (after logging in if needed) it runs a search of your secrets for:
+
+* Browser web site - The search will be run looking for any secret that has the same Domain value in the URL
+* Other mobile application - The search will run looking for any secret that has the same name or URL value as the name of the mobile application that is being filled.
+
+Users can also choose to manually modify the search value and run it again. Once the list of Secret Server Secrets has been returned, you can select which one you want to use and the autofill service will fill those credentials in the related username and password fields.
+
+>**Note**: Currently the autofill service only has support for username and password fields, and it does not fill in any other additional fields.
