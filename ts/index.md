@@ -8,9 +8,9 @@ If you are unable to connect a client application or mobile device to your Secre
 If the Desktop Client is not starting or you are receiving a Login Failed error with your correct credentials you may need to uninstall and re-install Java.
 
 For example:
-`https://secretserver/ss/Login.aspx` THE URL TO USE IS `https://secretserver/ss`
-`https://secretserver/Login.aspx` THE URL TO USE IS `https://secretserver/` 
-`http://ss.myserver1.com/Login.aspx` THE URL TO USE IS `http://ss.myserver1.com/`
+* `https://secretserver/ss/Login.aspx` the URL to use is `https://secretserver/ss`
+* `https://secretserver/Login.aspx` the URL to use is `https://secretserver/`
+* `http://ss.myserver1.com/Login.aspx` the URL to use is `http://ss.myserver1.com/`
 
 1. Are webservices enabled?  
    * Go to Administration->Configuration and ensure that "Enable Webservices" is set to "Yes".
