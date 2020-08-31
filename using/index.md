@@ -15,7 +15,7 @@ The mobile app can be used to authenticate to a Secret Server instance (on-prem 
 * Favorite
   * Users have access to their Favorites list as a separate tab and can favorite or un-favorite secrets, which is then synchronized between the mobile device and Secret Server and vice versa.
 * Recent
-  * Shows the user's f15 most recently accessed secrets.
+  * Shows the user's 15 most recently accessed secrets.
 
 Users access and use their secrets via mobile device, using the built-in password management features. When Users are logged in with their own account, users can navigate the Secret Server folder structure to access any of their Secrets.
 The applications allows users to automatically fill credentials from Secrets into other mobile apps or Web browser sites on the mobile device. For this to work correctly, the application needs to be registered with the device's autofill service.
