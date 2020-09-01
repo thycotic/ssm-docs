@@ -5,8 +5,8 @@
 
 Once the user receives the invitation email from the onboarding process to install and use the Secret Server Mobile application, they use the provided app store links to download and install the product. The Secret Server Mobile application is available at
 
-* [Google Play](TODO)
-* [Apple App Store](TODO)
+* [Google Play](https://play.google.com/store/apps/details?id=com.thycotic.SecretServerMobile)
+* [Apple App Store](https://apps.apple.com/us/app/id1509465103)
 
 Following a successful installation users can manually enter the connection URL and user credentials or use the links in the onboarding email to run through the initial setup steps:
 
