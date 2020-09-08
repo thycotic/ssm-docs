@@ -39,7 +39,6 @@ The application supports the same MFA mechanisms as used by Secret Server:
 * DUO – Phone call
 * Pin Code
 * TOTP authenticators
-* FIDO (NFC)
 
 If available via device, the application supports biometric authentication instead of a Secret Server password:
 
