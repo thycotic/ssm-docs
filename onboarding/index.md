@@ -24,6 +24,7 @@ The following security based information should be considered:
   * on __iOS__, Secure Keychain is used. Keychain items are encrypted using two different AES-256-GCM keys.
   * on __Android__, an AES key is obtained from the android key store. This is then used with an AES/GCM/NoPadding cipher to encrypt the value.
 * Cache storage:
+  * List of Secrets, without Secret details following the login.
   * The cache is __cleared__ out, on __user logout__ and __user switch__.
   * Cache is updated every 5-10 minutes.
   * No credential values are cached, except for the Secret Server login, which is used by Biometrics.
