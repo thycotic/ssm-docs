@@ -94,20 +94,6 @@ Users can launch Web Secrets directly from the secret's details page.
 
 1. Click the launcher icon in the top right of the details page.
 
-## Switching the Login
-
-The mobile application supports to switch the user/login. 
-
-1. Select the Hamburger menu on the top left.
-1. Click the currently logged in user.
-1. On the __Change User__ page, select __Switch Login__.
-
-   ![switch](images/switch.png "Switch Login option")
-1. Confirm your action, click __Yes__.
-1. On the __What is your URL?__ page either enter a different instance for the new login or keep the known URL and click __Continue__ to access the __What is your username?__ page.
-1. Enter your Username, click __Continue__.
-1. Enter your Password, click __Continue__.
-
 ## Autofill
 
 When the Autofill service is enable on the device, the Secret Server Mobile application works with the devices built-in autofill features to fill username and password fields for web pages or other mobile applications.
