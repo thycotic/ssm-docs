@@ -41,7 +41,7 @@ To use the Web Login option
 1. Enable the __Web Login__ switch.
 
    ![switch](images/web-login-switch.png "Setting the Web Login switch to on")
-1. Click __Continue__. You will see a quick page flash when the app reaches out to the server tp generate a token.
+1. Click __Continue__. You will see a quick page flash when the app reaches out to the server for the token generation.
 
 Your Login page now looks like this:
 
