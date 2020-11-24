@@ -1,5 +1,5 @@
 [title]: # (1.0.1 Release)
-[tags]: # (read me)
+[tags]: # (release notes)
 [priority]: # (10999)
 # 1.0.1 Release Notes
 

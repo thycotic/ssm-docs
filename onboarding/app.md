@@ -31,6 +31,22 @@ Now launch the app and fill in the fields with the correct information. The url 
 
 If you are using your active directory credentials then you must enter the fully-qualified domain name (FQDN), if you are using local Secret Server account then this could be left empty. Enter your two-factor information, if you have that enabled. Once logged in, you will see the Secrets list.
 
+## SAML Login Support
+
+SAML support allows users to login via Web Login.
+
+To use the Web Login option
+
+1. Navigate to your Secret Server Mobile apps login screen.
+1. Enable the __Web Login__ switch.
+
+   ![switch](images/web-login-switch.png "Setting the Web Login switch to on")
+1. Click __Continue__. You will see a quick page flash when the app reaches out to the server for the token generation.
+
+Your Login page now looks like this:
+
+![login](images/web-login.png "Web Login page")
+
 ## Supported MFA
 
 The application supports the same MFA mechanisms as used by Secret Server:  

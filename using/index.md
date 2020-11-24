@@ -3,8 +3,7 @@
 [priority]: # (3)
 # Using the Application
 
-The application will display the Secrets in a UI similar to the Basic dashboard in Secret Server. Clicking on
-a Secret will expand it and show the Secret information. You will be able to edit and open the Secret in
+The application will display the Secrets in a UI similar to the Basic dashboard in Secret Server. Clicking on a Secret will expand it and show the Secret information. You will be able to edit and open the Secret in
 browser. Clicking Edit allows you start editing the contents of the Secret.
 
 The mobile app can be used to authenticate to a Secret Server instance (on-prem or cloud) and access secrets. The app has the ability to run the following actions for both Secrets and Folders:
@@ -94,23 +93,9 @@ Users can launch Web Secrets directly from the secret's details page.
 
 1. Click the launcher icon in the top right of the details page.
 
-## Switching the Login
-
-The mobile application supports to switch the user/login. 
-
-1. Select the Hamburger menu on the top left.
-1. Click the currently logged in user.
-1. On the __Change User__ page, select __Switch Login__.
-
-   ![switch](images/switch.png "Switch Login option")
-1. Confirm your action, click __Yes__.
-1. On the __What is your URL?__ page either enter a different instance for the new login or keep the known URL and click __Continue__ to access the __What is your username?__ page.
-1. Enter your Username, click __Continue__.
-1. Enter your Password, click __Continue__.
-
 ## Autofill
 
-When the Autofill service is enable on the device, the Secret Server Mobile application works with the devices built-in autofill features to fill username and password fields for web pages or other mobile applications.
+When the Autofill service is enabled on the device, the Secret Server Mobile application works with the devices built-in autofill features to fill username and password fields for web pages or other mobile applications.
 
 When you select the mobile application or web page and click on the username field you should see a prompt to use the autofill service from Secret Server Mobile. Clicking this option will open the app and (after logging in if needed) it runs a search of your secrets for:
 
