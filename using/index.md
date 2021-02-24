@@ -105,3 +105,18 @@ When you select the mobile application or web page and click on the username fie
 Users can also choose to manually modify the search value and run it again. Once the list of Secret Server Secrets has been returned, you can select which one you want to use and the autofill service will fill those credentials in the related username and password fields.
 
 >**Note**: Currently the autofill service only has support for username and password fields, and it does not fill in any other additional fields.
+
+Security workflows help users to readily access and check out Secrets from the Autofill feature. The workflows provide screens, confirmations, notices, prompts, indications, and controls related to: 
+* checking out and checking in a Secret 
+* submitting, resubmitting, and canceling a request for access to a Secret
+* submitting a Double Lock password or a Ticket Comment, Reason, or Number to access a Secret
+* confirmation of submission, approval, denial, or cancellation of an access request 
+* notification of a duplicate request for access to a Secret 
+* notification of login failure with the reason for failure
+* provision of access to a Secret, including Details and Options, upon approval 
+* setting a duration and a beginning and end time for accessing a Secret, now or at a later date 
+* visual indication of each Secret you have checked out, from both Secret Server Mobile and the desktop Secret Server application 
+* visual indication that a Secret is checked out by another user
+* entering a Comment and checking out a Secret at the same time 
+
+
