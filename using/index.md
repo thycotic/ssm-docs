@@ -86,7 +86,9 @@ The Shared page displays shared Secrets.
 
 ![shared](images/shared.png "Shared page")
 
-Some Secrets, especially Secrets that are shared across an organization, require the user to request and receive approval to access the Secret. During the process of requesting approval, the user can be prompted to enter security information such as a comment, ticket number, reason, or Double Lock password, and to check out the Secret for their personal use for a specified period. The screen shots below show the sequence for specifying a check out period through the Request Approval, Select Duration, and Custom screens. 
+
+Some Secrets, especially Secrets that are shared across an organization, require the user to request and receive approval to access the Secret. During the process of requesting approval to access a Secret, the user can be prompted to enter security information such as a comment, ticket number, reason, or Double Lock password, and to check out the secret for their personal use for a specified period. The screen shots below show the sequence for specifying a check out period through the Request Approval, Select Duration, and Custom screens. 
+
 
 On the **Request Approval** screen, the user clicks to enter the duration value. Note that some scrolling-down might be required.
 
@@ -98,7 +100,9 @@ On the **Select Duration** screen, the user chooses a preset duration or chooses
 ![duration](images/select-duration2.png "Select Duration")
 
 
-On the **Custom** screen, the user clicks to enter the start and end dates and times. 
+
+On the **Custom** screen, the user clicks to enter the duration value. Note that some scrolling-down might be required.
+
 
 ![custom](images/duration-custom2.png "Custom Duration")
 
