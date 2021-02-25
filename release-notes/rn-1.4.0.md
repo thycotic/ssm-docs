@@ -33,4 +33,4 @@ Secret Server Mobile 1.4 provides users with the following enhanced capabilities
 * New text options for iOS now clearly distinguish between a lowercase letter ‘L’ (l) and an uppercase letter “i” (I). 
 * After a user deletes a Secret, Secret Server Mobile now displays a notification that the deletion was successful.
 * When a site certificate is not valid, Secret Server Mobile now displays an appropriate message instead of *URL is not valid.* The Home screen now opens when expected, whereas in some cases the Secret list screen appeared instead. 
-* When you enter a correct Double Lock password for a Secret or Secrets, the Double Lock password is cached so you don’t need to manually re-enter it for the remainder of the session. 
+* When you enter a correct Double Lock password for a Secret or Secrets, the Double Lock password is cached so you don’t need to manually re-enter it for the remainder of the session.   
