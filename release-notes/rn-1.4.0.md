@@ -44,11 +44,11 @@ Secret Server Mobile 1.4 provides users with the following enhanced capabilities
 
 ## Known Issues
 
-* In some situations, when a user on an iOS device attempts to connect to a Secret Server Cloud using SAML (Web Login), the authentication token seems to not return, resulting in a gray screen with a spinning icon. 
+* In some situations, when a user on an iOS device attempts to connect to a Secret Server Cloud using SAML (Web Login), the authentication token does not seem to successfully get back to the mobile app, resulting in a gray screen with a spinner icon.
 * On iOS devices, a Toaster message at the top of the Secret Server Mobile Home screen overlaps the phone’s system indicators such as the time and carrier.
 * Users attempting to connect to an on-premises Secret Server configured with a Self-Signed/Internal certificate receive the message, *Unable to connect due to a self-signed or untrusted certificate*.
-* When a user is creating a Secret using the template *Generic Discovery Credentials* and taps to enter a **Private Key Passphrase**, the input field should display *Enter* instead of *Current Password*, and the button label should read, *Generate* instead of *Generate Password*.  
-* When Secret Server Mobile is auto-filling a password using a Secret that requires edit privileges to view it, the password field is filled with, “***Not Valid for Display***” instead of the actual password.  
-* Secret Server Mobile does not currently support deployment via MDM; it will not deploy via MDS solutions (VMware workspace/AirWatch etc.)
+* When a user is creating a Secret using the template *Generic Discovery Credentials* and taps to enter a *Private Key Passphrase*, the input field should display *Enter* instead of *Current Password*, and the button label should read, *Generate* instead of *Generate Password*. It will generate a strong password.
+* When Secret Server Mobile is auto-filling a password from a Secret that requires edit privileges to view it, the password field is filled with, *Not Valid for Display* instead of the actual password.
+* Secret Server Mobile does not currently support deployment via MDM solutions (VMware workspace/AirWatch etc.)
 * When a user attempting to access a Secret enters an incorrect alphanumeric value in the Ticket Number field, the error message, *Failed to send access request* appears.
-* Secrets checked out by the current user via Autofill are not marked as **Checked Out** on the user’s main screen.
+* Secrets checked out by the current user via Autofill are not marked as *Checked Out* on the main screen. Likewise, Secrets marked as *Checked Out* on the main screen are not marked *Checked out* when using Autofill.
