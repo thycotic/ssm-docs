@@ -133,17 +133,20 @@ Users can also choose to manually modify the search value and run it again. Once
 
 >**Note**: Currently the autofill service supports only the username and password fields.
 
-From the Autofill feature, security workflows provide users with screens, confirmations, notices, prompts, indications, and controls related to: 
+
+## Secret Workflows
+
+From **Autofill**, **Home**, **Favorites**, **Recents**, and **Shared** screens, Secret workflows provide users with screens, confirmations, notices, prompts, indications, and controls related to: 
+
 * checking out and checking in a Secret 
 * submitting, resubmitting, and canceling a request for access to a Secret
-* submitting a Double Lock password or a Ticket Comment, Reason, or Number to access a Secret
+* submitting a **Double Lock** password or a **Ticket Comment**, **Reason**, or **Number** to access a Secret
 * confirmation of submission, approval, denial, or cancellation of an access request 
 * notification of a duplicate request for access to a Secret 
 * notification of login failure with the reason for failure
-* provision of access to a Secret, including Details and Options, upon approval 
+* provision of access to a Secret, including details and options, upon approval 
 * setting a duration and a beginning and end time for accessing a Secret, now or at a later date 
-* visual indication of each Secret you have checked out, from both Secret Server Mobile and the desktop Secret Server application 
+* visual indication of each Secret you have checked out, from both Secret Server Mobile and the Secret Server web interface 
 * visual indication that a Secret is checked out by another user
-* entering a Comment and checking out a Secret at the same time 
-
+* entering a **Comment** and checking out a Secret at the same time 
 
