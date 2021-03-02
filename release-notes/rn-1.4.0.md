@@ -4,7 +4,7 @@
 # 1.4.0 Release Notes
 
 
-_March 24, 2021_
+_March 2, 2021_
 
 ## Features
 
