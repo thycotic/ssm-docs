@@ -3,7 +3,6 @@
 [priority]: # (10997)
 # 1.4.0 Release Notes
 
-
 _March 2, 2021_
 
 ## Features
@@ -42,7 +41,6 @@ Secret Server Mobile 1.4 provides users with the following enhanced capabilities
 * The **Home** screen now opens when expected, whereas in some cases the **Secrets** list screen appeared instead (SAML/Web Login) 
 * When you enter a correct Double Lock password for a Secret or Secrets, the Double Lock password is cached so you do not need to manually re-enter it for the remainder of the session. If the session expires, you will need to re-enter the Double Lock password. 
  
-
 ## Known Issues
 
 * In some situations, when a user on an iOS device attempts to connect to a Secret Server Cloud using SAML (Web Login), the authentication token does not seem to successfully get back to the mobile app, resulting in a gray screen with a spinner icon.
@@ -53,3 +51,5 @@ Secret Server Mobile 1.4 provides users with the following enhanced capabilities
 * Secret Server Mobile does not currently support deployment via MDM solutions (VMware workspace/AirWatch etc.)
 * When a user attempting to access a Secret enters an incorrect alphanumeric value in the **Ticket Number** field, the error message, **Failed to send access request** appears.
 * Secrets checked out by the current user via Autofill are not marked as **Checked Out** on the main screen. Likewise, Secrets marked as **Checked Out** on the main screen are not marked **Checked out** when using Autofill.
+
+
