@@ -4,7 +4,8 @@
 
 # Changelog
 
-A chronological list of documentation changes to help track additions, deletions, and content edits other than spelling and grammar corrections.
+This changelog is a chronological list of documentation changes to help track additions, deletions, and content edits other than spelling and grammar corrections.
+
 
 ## March 16, 2021
 
