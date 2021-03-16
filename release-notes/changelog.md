@@ -6,7 +6,11 @@
 
 A chronological list of documentation changes to help track additions, deletions, and content edits other than spelling and grammar corrections.
 
-## March 2021
+## March 16, 2021
+
+* 1.5.0 Release Updates, refer to [1.5.0 Release Notes](rn-1.5.0.md) for details.
+
+## March 2, 2021
 
 * 1.4.0 Release Updates, refer to [1.4.0 Release Notes](rn-1.4.0.md) for details.
 
