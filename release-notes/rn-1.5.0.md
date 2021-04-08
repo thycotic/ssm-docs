@@ -4,7 +4,7 @@
 
 # 1.5.0 Release Notes
 
-_April 4, 2021_
+_April 9, 2021_
 
 ## iOS Hotfix
 
