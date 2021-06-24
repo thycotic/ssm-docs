@@ -1,20 +1,24 @@
 [title]: # (Configuration)
 [tags]: # (mobile)
 [priority]: # (2)
+
 # Secret Server Configuration
 
-Secret Server 10.9 provides a mobile onboarding feature, which if utilized allows mobile device onboarding via email invite directly from the Secret Server UI. Webservices need to be enabled to allow communication via RestAPI between Secret Server and the mobile clients.
+Secret Server 10.9 offers a feature directly from the Secret Server UI for onboarding mobile devices using an email invite.
 
-## Configuration
+## Enable Web Services
 
-Once launched, the mobile application needs to be configured to access your Secret Server instance. As a __prerequisite__, you need to make sure that your Secret Server instance has Web Services enabled.
+To allow communication via RestAPI between Secret Server and the mobile clients, you must enable Web Services.
 
-1. Navigate to __Admin | Configuration | Application Settings__.
-1. Verify that under __View Webservices__ the __Enable Webservices__ option is reflecting __Yes__.
+1. Navigate to **Admin \> Configuration \> Application Settings**.
 
-While you’re here, you can also define the Maximum Time for Offline Access on Mobile Devices and Session Timeout for Webservices. For maximum security, do not choose Unlimited for session timeout and restrict offline access to just a few days.
+1. Under **View Webservices**, verify that the box is checked next to **Enable Webservices**.
 
-The mobile onboarding process can be started and is reviewable via the __Event Pipelines: Policies in Secret Server__:
+While you’re here, you can also define the **Maximum Time for Offline Access on Mobile Devices** and **Session Timeout for Webservices**. For maximum security, restrict offline access to just a few days and do not choose **Unlimited** for session timeout.
+
+![login](images/ttl0.png "Web Login page")
+
+The mobile onboarding process can be started and is reviewable in Secret Server by navigating to **Admin \> See All \> Actions \> Event Pipeline Policy**.
 
 ![event pipelines](images/pipeline.png "Secret Server Mobile Application event pipelines policies for onboarding")
 
@@ -43,9 +47,9 @@ To use the Web Login option
    ![switch](images/web-login-switch.png "Setting the Web Login switch to on")
 1. Click __Continue__. You will see a quick page flash when the app reaches out to the server for the token generation.
 
-Your Login page now looks like this:
+   Your Login page now looks like this:
 
-![login](images/web-login.png "Web Login page")
+   ![login](images/username-pwd.png "Web Login page")
 
 ## Supported MFA
 
