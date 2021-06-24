@@ -29,11 +29,11 @@ Refer to the [Event Pipelines](https://docs.thycotic.com/ss/10.9.0/events-and-al
 1. Expand the Secret Server website or virtual directory and select the webservices folder.
 1. Double-click __Authentication__, then right-click __Anonymous Authentication__ and select __Enable__.-->
 
-Now launch the app and fill in the fields with the correct information. The url field should be the url you use to navigate to your Secret Server from the browser it could be:
+Now launch the app and fill in the fields with the correct information. The url field should be the one you use to navigate to your Secret Server from the browser, such as:
 
 `https://websitename.domain.com` or `https://websitename.domain.com/secretserver`
 
-If you are using your active directory credentials then you must enter the fully-qualified domain name (FQDN), if you are using local Secret Server account then this could be left empty. Enter your two-factor information, if you have that enabled. Once logged in, you will see the Secrets list.
+If you are using your active directory credentials then you must enter the fully-qualified domain name (FQDN). If you are using a local Secret Server account you can leave this field empty. If you have enabled two-factor authentication, enter that information. Once logged in, you will see the Secrets list.
 
 ## SAML Login Support
 
