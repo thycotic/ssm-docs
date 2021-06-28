@@ -1,6 +1,7 @@
 [title]: # (Using the App)
 [tags]: # (mobile)
 [priority]: # (3)
+
 # Using the Application
 
 The application will display the Secrets in a UI similar to the Basic dashboard in Secret Server. Clicking on a Secret will expand it and show the Secret information. You will be able to edit and open the Secret in

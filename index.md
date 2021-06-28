@@ -4,6 +4,6 @@
 
 # Introduction to the Secret Server Mobile Application
 
-The Secret Server Mobile Application allows Business Users and IT Security Administrators in data centers to access login credentials from a mobile device.
+The Secret Server Mobile application allows business users and IT security administrators to access login credentials from a mobile device.
 
-Employees that are typical end users or consumers of the Secret Server secrets can use the mobile application for quick access to business applications, corporate services, and tools from their mobile devices without the need to access their laptop or desktop systems.
+End users can use the mobile application to quickly access business applications, corporate services, and tools without having to access their laptop or desktop systems.
