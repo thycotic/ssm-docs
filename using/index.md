@@ -4,29 +4,25 @@
 
 # Using the Application
 
-The application will display the Secrets in a UI similar to the Basic dashboard in Secret Server. Clicking on a Secret will expand it and show the Secret information. You will be able to edit and open the Secret in
-browser. Clicking Edit allows you start editing the contents of the Secret.
+Through the Secret Server Mobile application, users can authenticate to a Secret Server instance and access secrets using built-in password management features. The mobile application displays secrets in an interface similar to the Secret Server interface.
 
-The mobile app can be used to authenticate to a Secret Server instance (on-prem or cloud) and access secrets. The app has the ability to run the following actions for both Secrets and Folders:
+Users can navigate in the mobile application to view secrets and secret folders. They can also add and delete secrets, as well as click on a secret to examine and edit it.
 
-* View, add, edit, delete
-* Search based on:
-  * Name
-* Favorite
-  * Users have access to their Favorites list as a separate tab and can favorite or un-favorite secrets, which is then synchronized between the mobile device and Secret Server and vice versa.
-* Recent
-  * Shows the user's 15 most recently accessed secrets.
-
-Users access and use their secrets via mobile device, using the built-in password management features. When Users are logged in with their own account, users can navigate the Secret Server folder structure to access any of their Secrets.
-The applications allows users to automatically fill credentials from Secrets into other mobile apps or Web browser sites on the mobile device. For this to work correctly, the application needs to be registered with the device's autofill service.
-
-The application allows users to launch a web session from a Secret on the mobile device and have the credentials auto-populate in the mobile devices default browser.
+By registering Secret Server Mobile with a mobile device's autofill service, users can launch a web session from a secret on the mobile device and automatically populate login credentials on specified web sites.
 
 ## Navigating the Application
 
 ### Home Page
 
-The Home page lets users browse existing Secrets and add new Secrets.
+The Home screen offers several options enabling users to view secrets. The Search feature (magnifying glass icon) enables users to search for secrets by name. Four tabs on the Home page enable users to view four different subsets of secrets:
+
+* **All**: all secrets the user has view access to
+
+* **Favorites**: secrets the user has designated as "Favorite"
+
+* **Recent**: the 15 secrets most recently used by the user
+
+* **Shared**: secrets shared between the user and other users
 
 ![home](images/main.png "Home page")
 

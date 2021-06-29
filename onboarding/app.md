@@ -51,7 +51,7 @@ To use the Web Login option
 
    ![login](images/username-pwd.png "Web Login page")
 
-## Supported MFA
+## Supported Multi-Factor Authentication
 
 The application supports the same MFA mechanisms as used by Secret Server:  
 

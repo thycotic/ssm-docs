@@ -58,7 +58,7 @@ With Web Login enabled in the Secret Server Mobile app, the user can switch betw
 
 1. Click __Yes__.
 
-1. On the first **Please Login** screen, enter your **URL** and **Domain**. and click to activate the switch next to **Web Login**.
+1. On the first **Please Login** screen, enter your **URL** and **Domain**, and click to activate the switch next to **Web Login**.
 
    ![switch](images/url-domain.png "Switch Login option")
 

@@ -1,11 +1,10 @@
-[title]: # (Onboarding)
-[tags]: # (mobile)
-[priority]: # (2)
+[title]: # (Checking Prerequisites and Compatibility)
+[tags]: # (mobile,prerequisites,compatibility)
+[priority]: # (3)
 
-## Secret Server Configuration
-See [Setting Maximum Time for Offline Caching](https://docs.thycotic.com/ss/10.9.0/mobile/maximum-offline-caching) in the Secret Server documentation.
+# Checking Prerequisites and Compatibility
 
-# System Requirements
+## Operating System Requirements
 
 The following Operating Systems are supported:
 
@@ -31,12 +30,12 @@ The following security-based information should be considered:
 * Secure storage handles most of the security:
   * on __iOS__, Secure Keychain is used. Keychain items are encrypted using two different AES-256-GCM keys.
   * on __Android__, an AES key is obtained from the android key store. This is then used with an AES/GCM/NoPadding cipher to encrypt the value.
-* Online Cache storage:
+* Online cache storage:
   * List of Secrets, without Secret details following the login.
   * The cache is __cleared__ out, on __user logout__ and __user switch__.
   * Cache is updated every 5-10 minutes.
   * No credential values are cached, except for the Secret Server login, which is used by Biometrics.
-* Offline Cache storage:
+* Offline cache storage:
   * Stored in a secured encrypted database
   * Stores secrets and secret details when tagged for offline caching
   * Cache is automatically updated (default) unless the auto-update feature is turned off
