@@ -1,4 +1,4 @@
-[title]: # (Mobile Setup)
+[title]: # (Onboarding Secret Server Mobile)
 [tags]: # (mobile)
 [priority]: # (3)
 
