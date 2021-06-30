@@ -117,33 +117,3 @@ Users can launch Web Secrets directly from the Secret's details page.
 
 1. Click the launcher icon in the top right of the details page.
 
-## Autofill
-
-When the Autofill service is enabled on the device, the Secret Server Mobile application works with the devices built-in autofill features to fill username and password fields for web pages or other mobile applications.
-
-When you select the mobile application or web page and click on the username field you should see a prompt to use the autofill service from Secret Server Mobile. Clicking this option will open the app and (after logging in if needed) it runs a search of your secrets for:
-
-* Browser web site - The search will be run looking for any secret that has the same Domain value in the URL
-* Other mobile application - The search will run looking for any secret that has the same name or URL value as the name of the mobile application that is being filled.
-
-Users can also choose to manually modify the search value and run it again. Once the list of Secret Server Secrets has been returned, you can select which one you want to use and the autofill service will fill those credentials in the related username and password fields.
-
->**Note**: Currently the autofill service supports only the username and password fields.
-
-
-## Secret Workflows
-
-From **Autofill**, **Home**, **Favorites**, **Recents**, and **Shared** screens, Secret workflows provide users with screens, confirmations, notices, prompts, indications, and controls related to: 
-
-* checking out and checking in a Secret 
-* submitting, resubmitting, and canceling a request for access to a Secret
-* submitting a **Double Lock** password or a **Ticket Comment**, **Reason**, or **Number** to access a Secret
-* confirmation of submission, approval, denial, or cancellation of an access request 
-* notification of a duplicate request for access to a Secret 
-* notification of login failure with the reason for failure
-* provision of access to a Secret, including details and options, upon approval 
-* setting a duration and a beginning and end time for accessing a Secret, now or at a later date 
-* visual indication of each Secret you have checked out, from both Secret Server Mobile and the Secret Server web interface 
-* visual indication that a Secret is checked out by another user
-* entering a **Comment** and checking out a Secret at the same time 
-
