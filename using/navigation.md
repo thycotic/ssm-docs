@@ -71,5 +71,3 @@ Clickable components on the side navigation panel include the following, from to
   ![folders](images/feedback.png "Folders page")
 
 * **Logout** immediately logs the user out when it is clicked, and shows the login screen.
-
-
