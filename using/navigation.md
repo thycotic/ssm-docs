@@ -1,6 +1,6 @@
 [title]: # (Navigating the Mobile Application Interface)
 [tags]: # (mobile,interface,navigation)
-[priority]: # (3)
+[priority]: # (6)
 
 # Navigating the Mobile Application Interface
 

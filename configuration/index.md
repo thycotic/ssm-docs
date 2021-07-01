@@ -1,6 +1,6 @@
 [title]: # (Configuring the Mobile Application)
 [tags]: # (mobile,configuring,configuration)
-[priority]: # (3)
+[priority]: # (5)
 
 # Configuring the Mobile Application
 
@@ -25,15 +25,11 @@ To use the Web Login option
 
 Thycotic recommends using biometric authentication: either facial recognition (iOS only) or fingerprint ID (Android and iOS) in place of username and password credentials. You must enable biometric authentication to use offline caching features.
 
-1. On the **Settings** page you can choose automation settings including **Use fingerprint to unlock app** instead of username and password.
+1. Navigate to the **Settings** page and select either fingerprint identification or facial recognition.
 
    ![enable autofill](images/init-5.png "Settings page: Use AutoFill")
 
-1. Click **Go To Device Settings** and follow the directions on the **Use Autofill** page.
-
-   ![autofill](images/init-4.png "Enable autofill functionality prompt on initial login")
-
-1. Click __OK__ to the trust prompt and follow the directions to enter your fingerprint
+1. Click __OK__ at the trust prompt and follow the directions to enter your fingerprint.
 
 ## Enabling Autofill
 
@@ -41,7 +37,6 @@ Thycotic recommends using biometric authentication: either facial recognition (i
 
    ![enable autofill](images/init-5.png "Settings page: Use AutoFill")
 
-1. Click **Go To Device Settings** and follow the directions on the **Use Autofill** page.
+1. On the **Use Autofill** page, follow the directions and click **Go To Device Settings**.
 
    ![autofill](images/init-4.png "Enable autofill functionality prompt on initial login")
-

@@ -1,8 +1,8 @@
-[title]: # (Prerequisites and Requirements)
-[tags]: # (mobile,prerequisites,compatibility)
-[priority]: # (3)
+[title]: # (Prerequisites, Requirements, and Download)
+[tags]: # (mobile,prerequisites,compatibility,download)
+[priority]: # (2)
 
-# Prerequisites and Requirements
+# Prerequisites, Requirements, and Download
 
 ## Secret Server Prerequisites
 
@@ -38,3 +38,12 @@ The Secret Server Mobile Application works with Secret Server on-premises and cl
 Offline Caching requires Secret Server 10.9.000064 or higher.
 
 The mobile application integrates via Secret Server's RESTApi.
+
+## Downloading Secret Server Mobile
+
+Once the user receives the invitation email from the onboarding process to install and use the Secret Server Mobile application, they use the provided app store links to download and install the product. The Secret Server Mobile application is available at
+
+* [Google Play Store](https://play.google.com/store/apps/details?id=com.thycotic.SecretServerMobile)
+* [Apple App Store](https://apps.apple.com/us/app/id1509465103)
+
+Following a successful installation users can manually enter the connection URL and user credentials, or use the links in the onboarding email to run through the initial setup steps.
