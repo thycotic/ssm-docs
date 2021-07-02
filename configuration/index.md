@@ -1,6 +1,6 @@
 [title]: # (Configuring the Mobile Application)
 [tags]: # (mobile,configuring,configuration)
-[priority]: # (5)
+[priority]: # (400)
 
 # Configuring the Mobile Application
 

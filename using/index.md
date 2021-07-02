@@ -1,6 +1,6 @@
 [title]: # (Navigating the Mobile Application Interface)
 [tags]: # (mobile,interface,navigation)
-[priority]: # (6)
+[priority]: # (500)
 
 # Navigating the Mobile Application Interface
 
@@ -26,9 +26,9 @@ The Home screen offers several options enabling users to view secrets. The Searc
 
 * **Shared**: secrets shared between the user and other users
 
-![home](images/main.png "Home page")
+![home](images/main.png "Home Screen")
 
-The Home screen displays a prominent Add icon ![add](images/add-icon.png "Add a Secret or Folder") near the bottom enabling users to quickly add folders and secrets. Secrets and folders on the Home screen and elsewhere display a vertical ellipses ![add](images/ellipses.png "Add a Secret or Folder") along one side.
+The Home screen displays a prominent Add icon ![add](images/add-icon.png "Add a Secret or Folder") near the bottom enabling users to quickly add folders and secrets. Secrets and folders on the Home screen and elsewhere display a vertical ellipses ![add](images/ellipses.png "Ellipses") along one side.
 
 Clicking an ellipses opens access to options that are generated dynamically, meaning that the options presented match the actions the user is likely to want to make at that moment. These actions can include view, delete, edit, cache, refresh cache, remove from cache, check in or check out, favorite or unfavorite, request access. etc.
 
@@ -36,13 +36,13 @@ Clicking an ellipses opens access to options that are generated dynamically, mea
 
 ### Side Navigation
 
-In the top left corner of the Home screen is an icon composed of three horizontal lines stacked atop one another, sometimes in a straight stack and sometimes slightly askew. This icon is popularly known as a "hamburger." ![hamburger](images/hamburger2.png "Hamburger menu options") ![hamburger](images/scewburger.png "Hamburger menu options")
+In the top left corner of the Home screen is an icon composed of three horizontal lines stacked atop one another, sometimes in a straight stack and sometimes slightly askew. This icon is popularly known as a "hamburger." ![hamburger](images/hamburger2.png "Hamburger Menu") ![hamburger](images/scewburger.png "Hamburger Menu")
 
-![hamburger](images/hamburger.png "Hamburger menu options")
+![hamburger](images/hamburger.png "Hamburger Menu")
 
 Clicking the hamburger icon opens up a side navigation panel with useful options.
 
-![folders](images/side-navigation.png "Folders page")
+![folders](images/side-navigation.png "Folders Screen")
 
 Clickable components on the side navigation panel include the following, from top to bottom:
 
@@ -52,22 +52,22 @@ Clickable components on the side navigation panel include the following, from to
 
 * **Folders** displays the the tree full structure of the user's folders and secrets.
 
-  ![folders](images/folders.png "Folders page")
+  ![folders](images/folders.png "Folders Screen")
 
 * **Cached** displays any folders and secrets the user has designated to be cached for offline use.
 
-  ![folders](images/cached.png "Folders page")
+  ![folders](images/cached.png "Cached Screen")
 
 * **Change Password** displays standard options for confirming your current password and quickly changing to a new one.
 
-  ![folders](images/change-pwd.png "Folders page")
+  ![folders](images/change-pwd.png "Change Password Screen")
 
 * **Settings** displays options for the user to activate or deactivate functions like biometric authentication, autofill, only synching when on wifi, and automatically updating the cache.  
 
-  ![folders](images/settings.png "Folders page")
+  ![folders](images/settings.png "Settings Screen")
 
 * **Feedback** allows users to provide a review of their experience with the Secret Server Mobile application.
 
-  ![folders](images/feedback.png "Folders page")
+  ![folders](images/feedback.png "Feedback Screen")
 
 * **Logout** immediately logs the user out when it is clicked, and shows the login screen.

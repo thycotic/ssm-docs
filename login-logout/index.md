@@ -1,6 +1,6 @@
 [title]: # (Logging Into the Mobile Application)
 [tags]: # (mobile,login, log in)
-[priority]: # (4)
+[priority]: # (300)
 
 # Logging Into the Mobile Application
 
@@ -10,11 +10,11 @@
 
 1. Enter your **URL** and **Domain**.
 
-   ![switch](images/url-domain.png "Switch Login option")
+   ![switch](images/url-domain.png "URL and Domain")
 
 1. Click __Continue__ to open the second **Please Login** screen.
 
-   ![switch](images/username-password.png "Switch Login option")
+   ![switch](images/username-password.png "Username and Password")
 
 1. Enter your **Username** and **Password**.
 
@@ -26,28 +26,28 @@ The mobile application supports switching the user.
 
 1. Select the Hamburger menu on the top left.
 
-   ![switch](images/hamburger.png "Switch Login option")
+   ![switch](images/hamburger.png "Hamburger Menu")
 
 1. Click the currently logged in user.
 
-   ![switch](images/current-user.png "Switch Login option")
+   ![switch](images/current-user.png "Current User")
 
 1. On the __Change User__ page, select __Switch Login__.
 
-   ![switch](images/switch-login.png "Switch Login option")
+   ![switch](images/switch-login.png "Switch Login Option")
 
    A prompt appears with information about switching users.
 
-   ![switch](images/confirm-switch-user.png "Switch Login option")
+   ![switch](images/confirm-switch-user.png "Confirm Switch Login option")
 
 1. Click __Yes__.
 1. On the first **Please Login** screen, enter your **URL** and **Domain**. In some cases you will use the same URL and Domain you used for this first user.
 
-   ![switch](images/url-domain.png "Switch Login option")
+   ![switch](images/url-domain.png "enter URL and domain)
 
 1. Click __Continue__ to open the second **Please Login** screen.
 
-   ![switch](images/username-password.png "Switch Login option")
+   ![switch](images/username-password.png "Username and Password")
 
 1. Enter your **Username** and **Password**.
 1. Click __Continue__.
@@ -58,19 +58,19 @@ With Web Login enabled in the Secret Server Mobile app, the user can switch betw
 
 1. Select the Hamburger menu on the top left.
 
-   ![switch](images/hamburger.png "Switch Login option")
+   ![switch](images/hamburger.png "Hamburger Menu")
 
 1. Click the currently logged in user.
 
-   ![switch](images/current-user.png "Switch Login option")
+   ![switch](images/current-user.png "Current User")
 
 1. On the __Change User__ page, select __Switch Login__.
 
-   ![switch](images/switch-login.png "Switch Login option")
+   ![switch](images/switch-login.png "Switch User")
 
    A prompt appears with information about switching login methods.
 
-   ![switch](images/confirm-switch-user.png "Switch Login option")
+   ![switch](images/confirm-switch-user.png "Confirm Switch User
 
 1. Click __Yes__.
 
@@ -78,11 +78,11 @@ With Web Login enabled in the Secret Server Mobile app, the user can switch betw
 
 1. Click the switch next to **Web Login** to switch to the web login method.
 
-   ![switch](images/url-domain.png "Switch Login option")
+   ![switch](images/url-domain.png "Switch to Web Login")
 
    The **Web Login** page opens
 
-   ![switch](images/web-login-screen.png "Switch Login option")
+   ![switch](images/web-login-screen.png "Web Login Screen")
 
 1. Enter your **Username** and **Password**.
 1. Enter your **Domain** as appropriate.
@@ -94,10 +94,10 @@ With the Web Login enabled in the Secret Server Mobile app, the user can manuall
 
 1. On the Web Login page, click the __ellipsis__ in the top right corner
 
-   ![login](images/web-login-screen.png "Web Login page")
+   ![login](images/web-login-screen.png "Web Login Screen")
 
 1. Under __Options__, select __Refresh Web Login__.
 
-   ![switch](images/refresh-web-login.png "Switch Login and Refresh Web Login options")
+   ![switch](images/refresh-web-login.png "Switch Login and Refresh Web Login Options")
 
 You will see a quick page flash when the app generates a new token.

@@ -1,6 +1,6 @@
 [title]: # (Introduction)
-[tags]: # (mobile)
-[priority]: # (1)
+[tags]: # (secret,server,mobile)
+[priority]: # (100)
 
 # Introduction to the Secret Server Mobile Application
 
