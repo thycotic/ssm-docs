@@ -10,8 +10,8 @@ Through the Secret Server Mobile application, users can connect from a mobile de
 
 The mobile application supports the same MFA mechanisms as used by Secret Server:  
 
-* DUO – Push  
-* DUO – Phone call
+* DUO - Push  
+* DUO - Phone call
 * Pin Code
 * TOTP authenticators
 
